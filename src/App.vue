@@ -11,9 +11,9 @@
     </button>
     
     <nav :class="{ open: isOpen }" id="menu-desktop">
-      <router-link to="/" @click="closeMenu">Home</router-link>
+      <router-link to="/" @click="closeMenu">Início</router-link>
       <a class="link-pages" href="/#servicos" @click="closeMenu">Servicos</a>
-      <router-link to="/about" @click="closeMenu">About</router-link>
+      <router-link to="/about" @click="closeMenu">Sobre</router-link>
       <router-link to="/contato" @click="closeMenu">Contato</router-link>
     </nav>
   </div>

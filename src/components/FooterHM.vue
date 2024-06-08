@@ -1,7 +1,7 @@
 <template>
   <div class="container-footer-geral">
     <div class="content-footer">
-      >
+      
       <div class="content-logo">
         <img class="logo" src="../assets/img/logo-hmn.png" alt="" />
       </div>
