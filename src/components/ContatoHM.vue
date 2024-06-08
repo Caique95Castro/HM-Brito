@@ -36,7 +36,7 @@
               Pirâmide Coleta atua há mais 20 anos oferecendo rapidez e
               eficiência no aluguel de caçambas, coleta e remoção de entulho,
               poda, gesso, isopor, plástico, papelão entre outros, em áreas
-              residenciais, comerciais e industriais.
+              residenciais, comerciais e industriais.s
             </p>
             <a class="btn-mais" href="/about">Saiba mais ></a>
           </div>
