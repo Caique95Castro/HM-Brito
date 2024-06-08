@@ -1,9 +1,9 @@
 <template>
   <div class="container-footer-geral">
     <div class="content-footer">
-      <div class="logo-footer">
-        <h1 class="logo-footer-1">HM BRITO</h1>
-        <p class="logo-footer-1">TERRAPLENAGEM</p>
+      >
+      <div class="content-logo">
+        <img class="logo" src="../assets/img/logo-hmn.png" alt="" />
       </div>
       <div class="institucional-footer">
         <div class="content-footer-1">
@@ -30,12 +30,7 @@
         </div>
       </div>
       <div class="institucional-footer">
-        <div class="content-footer-1">
-          <h4 class="logo-footer-1"><strong>Siga o nosso Instagram</strong></h4>
-          <a class="link-menu" href=""
-            ><ion-icon class="image-icons" name="logo-instagram"></ion-icon
-          ></a>
-        </div>
+        
         <div class="content-footer-1">
           <h4 class="logo-footer-1">
             <strong>Principais Locais de Atendimentos</strong>

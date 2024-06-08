@@ -1,58 +1,65 @@
 <template>
   <div class="container-geral-home">
+    <div class="container-rope-rapel">
+      <section class="module parallax parallax-2">
+        <div class="container-header">
+          <div class="content-header">
+            <div class="content-logo">
+              <img class="logo" src="../assets/img/logo-hmn.png" alt="" />
+            </div>
+            <nav class="container-pages">
+              <router-link class="link-pages" to="/">Início</router-link>
+              <a class="link-pages" href="#servicos">Servicos</a>
+              <router-link class="link-pages" to="/about">Sobre</router-link>
+              <router-link class="link-pages" to="/contato"
+                >Contato</router-link
+              >
+            </nav>
+          </div>
+        </div>
+        <div class="container-inicio-home">
+          <div class="box-itens-inicio-ho">
+            <div class="container-textos">
+              <h1 class="tit-inicio-home">
+                <strong
+                  >Aluguel de Caçambas para Entulho em Cotia e Região</strong
+                >
+              </h1>
+              <p class="sub-tit-inicio-home">
+                <strong>Descarte rápido e seguro</strong>
+              </p>
+              <a
+                class="btn-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="btn-link">Solicite um Orçamento</button></a
+              >
+            </div>
+            <div class="container-imagem">
+              <img
+                class="image-home-inicio"
+                src="../assets/img/image-3-transformed.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
     <div class="faixa-info">
       <p class="titulo-faixa">
         Solicite um orçamento <strong>sem compromisso</strong>:
       </p>
-      <a class="number-info" href="#">11 99999-9999</a>
+      <a class="number-info" href="#"><strong>(11) 99999-9999</strong></a>
       <p class="titulo-faixa"><strong>ou</strong></p>
-      <a class="number-info" href="#">seuemail@aqui.com</a>
+      <a class="number-info" href="#"><strong>seuemail@aqui.com</strong></a>
     </div>
-    <div class="content-inicio-home">
-      <div class="content-escrita">
-        <div>
-          <h1 class="enfase-titulo"><strong>HM BRITO</strong></h1>
-          <p class="titulo-enfase">TERRAPLENAGEM</p>
-        </div>
-        <h1 class="titulo-enfase">
-          Somos
-          <span class="enfase-titulo"><strong>Especializados</strong></span> em
-          locação de
-          <span
-            ><strong class="enfase-titulo"
-              >caçambas estacionárias.</strong
-            ></span
-          >
-        </h1>
-        <a class="botão-orcamento" href="#"
-          ><button class="botão-orcamento">
-            <strong>Fazer Orçamento</strong>
-          </button></a
-        >
-      </div>
-    </div>
-    <div class="content-about-home">
-      <ion-icon class="image-icons" name="home-outline"></ion-icon>
-      <p>Sobre a</p>
-      <h1 class="enfase-titulo"><strong>HM Brito</strong></h1>
-      <h4>Terraplenagem</h4>
-      <div class="container-about-home">
-        <div class="content-image-about-home">
-          <img class="image-about" src="../assets/img/CACAMBA1.png" alt="" />
-        </div>
-        <div class="content-text-about-home">
-          <p>
-            Com foco apenas nas regiões de
-            <strong>Cotia, Granja Viana e Vargem Grande Paulista</strong> a
-            Pirâmide Coleta atua há mais 20 anos oferecendo rapidez e eficiência
-            no aluguel de caçambas, coleta e remoção de entulho, poda, gesso,
-            isopor, plástico, papelão entre outros, em áreas residenciais,
-            comerciais e industriais.
-          </p>
-          <a class="btn-mais" href="/about">Saiba mais ></a>
-        </div>
-      </div>
-    </div>
+
+    <a href="#" id="servicos"></a>
+    <ServicosHM />
+
     <div class="container-rope-rapel">
       <section class="module parallax parallax-2">
         <div class="container-geral-icons">
@@ -79,54 +86,55 @@
         </div>
       </section>
     </div>
+
     <div class="container-image-HM">
       <div class="content-image-hm">
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-1.jpeg"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-2.jpeg"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-3.jpeg"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-4.jpeg"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/logo-hm.png"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-5.jpeg"
             alt="image-hm"
           />
         </div>
         <div class="image-hm">
           <img
             class="img-tamanho"
-            src="../assets/img/image-cacamba.jpeg"
+            src="../assets/img/image-6.jpeg"
             alt="image-hm"
           />
         </div>
@@ -146,13 +154,49 @@
         </div>
       </div>
     </div>
+
+    <div class="container-geral-motivos">
+      <div class="content-motivos">
+        <div class="box-textos-motivos">
+          <p class="primeiro-texto"><strong>Motivos para Escolher a</strong></p>
+          <h3 class="segunto-texto"><strong>HMN</strong> Locação de Caçambas para Entulho</h3>
+          <P class="texto-motivos"
+            >Nossa empresa se destaca no mercado de locação de caçambas por
+            diversos motivos, garantindo eficiência, economia e responsabilidade
+            ambiental. Conheça algumas das razões para escolher nossos
+            serviços:</P
+          >
+          
+          <h5 class="titulo-texto">Experiência e Profissionalismo</h5>
+          <P class="texto-motivos"
+            >Com uma vasta experiência no setor, nossa equipe é composta por
+            profissionais altamente qualificados, prontos para oferecer um
+            atendimento rápido e eficiente. Nosso compromisso é com a qualidade
+            e a satisfação do cliente.</P
+          >
+          <a
+                class="btn-link"
+                href="/about"
+                rel="noopener noreferrer"
+                ><button class="btn-link">Ver Mais</button></a
+              >
+          
+        </div>
+        <div class="box-image-motivos">
+          <img src="../assets/img/logo-hmn.png" alt="">
+        </div>
+      </div>
+    </div>
+
     <div class="container-faixa-garantia">
       <div class="content-garantia">
-        <h1><strong>Garantia no atendimento!</strong></h1>
-        <a class="botão-orcamento-1" href="#"
-          ><button class="botão-orcamento-1">
-            <strong>Fazer Orçamento</strong>
-          </button></a
+        <h1 class="titulo-garantia"><strong>Garantia no atendimento!</strong></h1>
+        <a
+          class="btn-link-1"
+          href="http://"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><button class="btn-link-1">Solicite um Orçamento</button></a
         >
       </div>
     </div>
@@ -164,8 +208,8 @@
             class="image-icons"
             name="checkmark-done-outline"
           ></ion-icon>
-          <h5><strong>Destinação Correta</strong></h5>
-          <p>
+          <h5 class="titulo-desc"><strong>Destinação Correta</strong></h5>
+          <p class="sub-desc">
             Tenha o cuidado de contratar uma Empresa séria para remoção de
             entulhos.
           </p>
@@ -175,16 +219,18 @@
             class="image-icons"
             name="checkmark-done-outline"
           ></ion-icon>
-          <h5><strong>EXIJA A LEGALIDADE</strong></h5>
-          <p>Empresa cadastrada junto à AMLURB sob o número de cadastro 0932</p>
+          <h5 class="titulo-desc"><strong>EXIJA A LEGALIDADE</strong></h5>
+          <p class="sub-desc">
+            Empresa cadastrada junto à AMLURB sob o número de cadastro 0932
+          </p>
         </div>
         <div class="box-itens-descricao">
           <ion-icon
             class="image-icons"
             name="checkmark-done-outline"
           ></ion-icon>
-          <h5><strong>O QUE FALAM SOBRE NÓS</strong></h5>
-          <p>
+          <h5 class="titulo-desc"><strong>O QUE FALAM SOBRE NÓS</strong></h5>
+          <p class="sub-desc">
             Mais abaixo você vera o que nossos clientes dizem sobre nós no
             Google.
           </p>
@@ -194,7 +240,7 @@
     <div class="container-dicas-uteis">
       <h1><strong>Dicas</strong> úteis.</h1>
       <p>
-        Veja algumas dicas que a <strong>HM BRITO</strong> considera
+        Veja algumas dicas que a <strong>HMN </strong> considera
         <strong>importante </strong> para que você ou sua empresa não coloque
         seu projeto em risco:
       </p>
@@ -225,11 +271,13 @@
           <p>A carga da caçamba não pode exceder a sua borda superior.</p>
         </div>
       </div>
-      <a class="botão-orcamento" href="#"
-          ><button class="botão-orcamento">
-            <strong>Fazer Orçamento</strong>
-          </button></a
-        >
+      <a
+        class="btn-link"
+        href="http://"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><button class="btn-link">Solicite um Orçamento</button></a
+      >
     </div>
 
     <link
@@ -245,12 +293,15 @@
 
 <script>
 import FooterHM from "./FooterHM.vue";
+import ServicosHM from "./ServicosHM.vue";
 
 export default {
   components: {
     FooterHM,
+    ServicosHM,
   },
 };
 </script>
+
 
 <style src="./css/Home.css" scoped ></style>

@@ -1,8 +1,7 @@
 <template>
   <div class="container-geral-header">
     <div class="content-logo">
-      <h2 class="name-logo">HM BRITO</h2>
-      <p class="name-logo">TERRAPLENAGEM</p>
+      <img class="logo" src="./assets/img/logo-hmn.png" alt="">
     </div>
     
     <button class="hamburger" @click="toggleMenu">
@@ -13,9 +12,8 @@
     
     <nav :class="{ open: isOpen }" id="menu-desktop">
       <router-link to="/" @click="closeMenu">Home</router-link>
+      <a class="link-pages" href="/#servicos" @click="closeMenu">Servicos</a>
       <router-link to="/about" @click="closeMenu">About</router-link>
-      <router-link to="/aluguel" @click="closeMenu">Aluguel de Caçamba</router-link>
-      <router-link to="/servicos" @click="closeMenu">Serviços</router-link>
       <router-link to="/contato" @click="closeMenu">Contato</router-link>
     </nav>
   </div>
@@ -49,26 +47,30 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-}
+
 
 .container-geral-header {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   padding: 10px;
   gap: 50px;
   width: 100%;
   height: 80px;
-  background-color: rgba(0, 0, 165, 0.768);
+  background-color: #FFF;
 }
 
-.name-logo {
-  color: #ffcc29;
+.content-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  width: 300px;
+
+}
+.logo{
+  width: 130px;
+  height: 130px;
 }
 
 .hamburger {
@@ -84,7 +86,7 @@ export default {
   .bar {
     width: 100%;
     height: 4px;
-    background-color: white;
+    background-color: red;
     border-radius: 2px;
     transition: all 0.3s ease;
   }
@@ -102,33 +104,36 @@ nav {
     position: absolute;
     top: 80px;
     right: 0;
-    background-color: rgba(0, 0, 165, 0.768);
+    background-color: #FFF;
     width: 100%;
     height: auto;
   }
 
   a {
     font-weight: bold;
-    color: white;
+    color: black;
     text-decoration: none;
 
     &.router-link-exact-active {
-      color: #ffcc29;
+      color: red;
     }
   }
 
   a:hover {
-    color: #ffcc29;
+    color: red;
+    text-decoration: none;
   }
 }
 
 @media (max-width: 768px) {
   .container-geral-header {
+    display: flex;
     justify-content: space-between !important;
     padding: 0 50px;
   }
   .hamburger {
     display: flex;
+
   }
 
   nav {
@@ -136,6 +141,8 @@ nav {
 
     &.open {
       display: flex;
+      z-index: 1000;
+      
     }
   }
 }

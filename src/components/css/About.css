@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0 auto !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+@media screen and (max-width: 500px) {
+    section.module.parallax {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 0 auto !important;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
+}
+
+section.module.parallax:after {
+    content: "";
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -webkit-linear-gradient(to bottom, rgba(10, 10, 10, .6)40%, rgba(10, 10, 10, .6)40%, #000 100%);
+    ;
+    background: -moz-linear-gradient(to bottom, rgba(10, 10, 10, .6)40%, rgba(10, 10, 10, .6)40%, #000 100%);
+    background: -o-linear-gradient(to bottom, rgba(10, 10, 10, .6)40%, rgba(10, 10, 10, .6)40%, #000 100%);
+    ;
+    background: linear-gradient(to bottom, rgba(10, 10, 10, .6)10%, rgba(10, 10, 10, .6)10%, #000 100%);
+}
+
+section.module.parallax-2 {
+    background-image: url(../../assets/img/image-fundo-sobre.png);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  
+    &.open {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: rgba(0, 0, 165, 0.768);
+      width: 100%;
+      height: auto;
+    }
+  
+    a {
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+  
+      &.router-link-exact-active {
+        color: red;
+      }
+    }
+  
+    a:hover {
+      color: red;
+    }
+  }
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 0 100px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF;
+    width: 75%;
+    height: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: 200;
+}
+
+.content-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    width: 300px;
+
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+}
+
+.container-pages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-pages {
+    color: black;
+}
+
+.link-pages:hover {
+    color: red;
+    text-decoration: none;
+}
+
+
+.content-about-home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 200;
+    gap: 20px;
+}
+.image-icons{
+    color: red;
+    width: 35px;
+    height: 35px;
+    margin-top: 50px;
+}
+.title-sobre{
+    color: #FFF;
+}
+.enfase-titulo{
+    color: #ffff;
+}
+
+.container-about-home {
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    width: 100%;
+    height: 500px;
+    gap: 10px;
+    z-index: 200;
+}
+
+.content-image-about-home {
+    width: 600px;
+}
+
+.image-about {
+    width: 600px;
+}
+
+.content-text-about-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+    padding: 0 30px;
+    width: 500px;
+}
+
+.btn-mais {
+    color: rgb(0, 0, 165);
+}
+
+.btn-mais:hover {
+    color: #ffcc29;
+}
+
+.container-mais-motivos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 200;
+}
+.content-motivos-mais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 100px;
+}
+.box-texto-motivos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    width: 80%;
+    gap: 10px;
+}
+.box-motivos-gerais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 30px 100px;
+    width: 100%;
+    gap: 20px;
+}
+.box-motivo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 350px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.247);
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 0 10px;
+    gap: 10px;
+}
+.titulo-motivo-sobre{
+    color: white;
+    font-weight: 700;
+}
+
+
+
+
+/* WHATSAPP BOTÃO */
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-header {
+        display: none;
+    }
+
+    .faixa-info {
+        display: none;
+    }
+
+    .container-about-home {
+        flex-wrap: wrap;
+        padding: 0 10px !important;
+    }
+
+    .content-image-about-home {
+        width: 100%;
+    }
+
+    .image-about {
+        width: 100%;
+    }
+    .content-motivos-mais{
+        padding: 0 0px !important;
+    }
+    .box-texto-motivos{
+        padding: 0 20px;
+        width: 100% !important;
+    }
+    .box-motivos-gerais{
+        padding: 30px 20px !important;
+    }
+}
