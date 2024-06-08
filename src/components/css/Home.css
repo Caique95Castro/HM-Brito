@@ -393,6 +393,7 @@ section.module.parallax-2 {
     height: 150px;
     background-color: red;
     padding: 0 100px;
+    border-top-right-radius: 100px;
 }
 
 .content-garantia {
