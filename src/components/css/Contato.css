@@ -152,8 +152,9 @@ nav {
     flex-direction: column;
     z-index: 200;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 50px 0;
+    gap: 20px;
 }
 .content-contato{
     display: flex;
@@ -207,6 +208,13 @@ nav {
     height: 500px;
     border-radius: 10px;
 }
+.container-local{
+    display: flex;
+    width: 60%;
+}
+.box-local{
+    width: 500px;
+}
 
 .btn-link {
     display: flex;
@@ -259,6 +267,25 @@ nav {
     .container-header {
         display: none;
     }
-
-    
+    .box-texto-contato{
+        width: 100%;
+        padding: 20px;
+    }
+    .box-image-google{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .container-local{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .box-local{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 }
