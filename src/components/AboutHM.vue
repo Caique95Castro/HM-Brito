@@ -8,7 +8,7 @@
           </div>
           <nav class="container-pages">
             <router-link class="link-pages" to="/">Início</router-link>
-            <a class="link-pages" href="/#servicos">Servicos</a>
+            <a class="link-pages" href="/#servicos">Serviços</a>
             <router-link class="link-pages" to="/about">Sobre</router-link>
             <router-link class="link-pages" to="/contato">Contato</router-link>
           </nav>

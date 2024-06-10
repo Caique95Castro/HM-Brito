@@ -12,7 +12,7 @@
     
     <nav :class="{ open: isOpen }" id="menu-desktop">
       <router-link to="/" @click="closeMenu">Início</router-link>
-      <a class="link-pages" href="/#servicos" @click="closeMenu">Servicos</a>
+      <a class="link-pages" href="/#servicos" @click="closeMenu">Serviços</a>
       <router-link to="/about" @click="closeMenu">Sobre</router-link>
       <router-link to="/contato" @click="closeMenu">Contato</router-link>
     </nav>

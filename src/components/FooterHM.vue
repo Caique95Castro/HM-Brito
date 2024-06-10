@@ -9,20 +9,14 @@
         <div class="content-footer-1">
           <h4 class="logo-footer-1"><strong>Institucional.</strong></h4>
           
-          <router-link class="link-menu" to="/">Home</router-link>
-          <router-link class="link-menu" to="/about">About</router-link>
-          <router-link class="link-menu" to="/aluguel"
-            >Aluguel de Caçamba</router-link
-          >
+          <router-link class="link-menu" to="/">Início</router-link>
           <router-link class="link-menu" to="/servicos">Serviços</router-link>
+          <router-link class="link-menu" to="/about">Sobre</router-link>
           <router-link class="link-menu" to="/contato">Contato</router-link>
         </div>
       </div>
       <div class="institucional-footer">
-        <div class="content-footer-1">
-          <h4 class="logo-footer-1"><strong>Serviços.</strong></h4>
-          <a class="link-menu" href="">Aluguel de Caçamba</a>
-        </div>
+        
         <div class="content-footer-1">
           <h4 class="logo-footer-1"><strong>Fale Conosco.</strong></h4>
           <a class="link-menu" href="#">1199999-9999</a>
