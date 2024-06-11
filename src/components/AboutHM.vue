@@ -15,10 +15,7 @@
         </div>
       </div>
       <div class="content-about-home">
-        <ion-icon class="image-icons" name="home-outline"></ion-icon>
-        <p class="title-sobre">Sobre a</p>
-        <h3 class="enfase-titulo"><strong>HMN</strong></h3>
-        <h4 class="enfase-titulo">Terraplenagem</h4>
+        <h3 class="enfase-titulo">Sobre a <strong><span class="titulo-hmn">HMN</span></strong> Terraplenagem</h3>
         <div class="container-about-home">
           <div class="content-image-about-home">
             <img
@@ -119,6 +116,13 @@
             </div>
           </div>
         </div>
+        <a
+                class="btn-link"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><button class="btn-link">Solicite um Orçamento</button></a
+              >
       </div>
 
       <link

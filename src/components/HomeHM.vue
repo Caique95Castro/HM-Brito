@@ -52,9 +52,10 @@
       <p class="titulo-faixa">
         Solicite um orçamento <strong>sem compromisso</strong>:
       </p>
-      <a class="number-info" href="#"><strong>(11) 99999-9999</strong></a>
+      <a class="number-info" href="#"><strong>(11) 99795-4111</strong></a>/
+      <a class="number-info" href="#"><strong>(11) 2337-4654</strong></a>
       <p class="titulo-faixa"><strong>ou</strong></p>
-      <a class="number-info" href="#"><strong>seuemail@aqui.com</strong></a>
+      <a class="number-info" href="mailto:renata-brito@hotmail.com"><strong>renata-brito@hotmail.com</strong></a>
     </div>
 
     <a href="#" id="servicos"></a>

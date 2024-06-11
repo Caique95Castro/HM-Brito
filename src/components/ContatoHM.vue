@@ -36,10 +36,10 @@
             >
             <a
               class="titulo-4"
-              href="http://"
+              href="mailto:renata-brito@hotmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              ><strong>seuemail@aqui.com</strong></a
+              ><strong>renata-brito@hotmail.com</strong></a
             >
             <a
               class="btn-link"
